@@ -1,0 +1,3 @@
+\select@language {ngerman}
+\contentsline {section}{Eidesstattliche Erkl\IeC {\"a}rung}{I}{section*.1}
+\contentsline {section}{Zusammenfassung / Abstract}{II}{section*.2}
