@@ -2,3 +2,5 @@
 \contentsline {section}{Eidesstattliche Erkl\IeC {\"a}rung}{I}{section*.1}
 \contentsline {section}{Zusammenfassung / Abstract}{II}{section*.2}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Grundlagen}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}Softwarequalit\IeC {\"a}t}{2}{section.2.1}
