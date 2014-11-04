@@ -7,9 +7,9 @@
 
 Nach der Norm ISO-25000:2014 4.33 bezeichnet der Begriff der Softwarequalität die Fähigkeit einer Software die expliziten und impliziten Bedürftnisse von Benutzern, unter den Bedingungen unter sie benutzt wird, zu befriedigen.  \cite {international_organization_for_standardization_iso_so/iec_2014}
 Softwarequalität hat nach dieser Definition einen subjektiven Charakter.
-Dieser subjektive Charakter macht den Begriff nicht operabel und daher in der Praxis nicht direkt anwendbar. \cite[S. 257]{balzert_lehrbuch_1998} Aus diesem Grund existieren sogenannte Qualitätsmodelle, die den Begriff der Softwarequalität messbar und damit auch überprüfbar machen sollen.
+Dieser subjektive Charakter macht den Begriff in der Praxis schwer zu greifen und damit nicht direkt anwendbar. Aus diesem Grund existieren sogenannte Qualitätsmodelle, die den Begriff der Softwarequalität messbar und damit auch überprüfbar machen sollen.
 Ein solches Qualitätsmodell wird zum Beispiel in der ISO-Norm 9126 vorgestellt.
-Hier werden verschiedene Qualitätsmerkmale deffiniert die zur Beurteilung der Gesamtqualität eines Softwareprodukts dienen.
+Es werden verschiedene Qualitätsmerkmale definiert die zur Beurteilung der Gesamtqualität eines Softwareprodukts dienen.
 Hierunter fallen die Merkmale:
 
 \begin{itemize}
@@ -23,10 +23,43 @@ Hierunter fallen die Merkmale:
 \end{itemize}
 
 Es existieren verschiedene Methoden um sicherzustellen, dass Software bezogen auf die Qualitätsmerkmale gewissen Anforderungen genügt.
-Eine Gruppe geht dabei davon aus, dass ein qualitativ hochwertiger Prozess der Produkterstellung die Entstehung von qualitativ hochwertigen Produkten begünstigt.
+Eine Teil der Methoden geht dabei davon aus, dass ein qualitativ hochwertiger Prozess der Produkterstellung die Entstehung von qualitativ hochwertigen Produkten begünstigt.
 Das Augenmerk wird hierbei also auf die Prozessqualität gelegt.
-Allgemein fasst man diese Gruppe unter dem Begriff des prozessorientiertes Qualitätsmanagement zusammen. Hierunter fallen unter anderem die klassischen Vorgehensmodelle der Softwarentwicklung.
+Allgemein fasst man diese Gruppe unter dem Begriff des prozessorientiertes Qualitätsmanagement zusammen. Die klassischen Vorgehensmodelle der Softwarentwicklung werden z.B. hier eingeordnet.
 Worauf sich diese Arbeit jedoch konzentrieren möchte sind die Methoden des produktorientierten Qualitätsmanagement.
 Hierbei wird das Softwareprodukt direkt bezüglich der Qualitätsmerkmale überprüft.
-Darunter fallen beispielsweise Softwaretests. Mittels Softwaretests das konkrete Produkt direkt untersucht damit es die gestellten Qualitätsanforderungen möglichst gut erfüllt.
- 
+Darunter fallen beispielsweise Softwaretests.
+
+
+\section{Softwaretest}
+\label{sec:softwaretest}
+
+Das produktorientierte Qualitätsmanagement unterteilt sich weiter in die Bereiche des konstruktiven und analytischen Qualitätsmanagement.
+Unter dem konstruktiven Qualitätsmanagement versteht man in diesem Fall den Einsatz von z.B. Methoden, Werkzeugen oder Standards die dafür sorgen, dass ein (Zwischen-)Produkt bestimmte Forderungen erfüllt.
+Was man im Allgemeinen aber unter einem Softwaretest versteht ist im Bereich der prüfenden Verfahren des analytischen Qualitätsmanagement angesiedelt.
+Unter analytischen Qualitätsmanagement versteht man hier den Einsatz von analysierenden bzw. prüfenden Verfahren, die Aussagen über die Qualität eines (Zwischen-)Produkts machen. \newline
+Die Norm ISO/IEC/IEEE 24765:2010 3.280 definiert das testen von Software als \glqq the dynamic verification of the behavior of a program on a finite set of test cases, suitably selected from the usually infinite executions domain, against the expected behavior.\grqq\
+Aufgabe eines Softwaretests ist es dabei nicht einen Fehler im Code zu Lokalisieren und zu beheben. TODO:CITE
+Das Lokalisieren und Beheben des Defekts ist Aufgabe des Softwareentwicklers und wird auch als Debugging (Fehlerbereinigung, Fehlerkorrektur) bezeichnet.
+Während Debugging das Ziel hat, Defekte bzw. Fehlerzustände zu beheben, ist es Aufgabe des Tests, Fehlerwirkungen (die auf Defekte hinweisen) gezielt und systematisch aufzudecken. \cite{spillner_basiswissen_2003}
+Dabei dienen definierte Anforderungen als Prüfreferenz, mittels derer ggf. vorhandene Fehler aufgedeckt werden.
+\glqq Das Testen von Software dient durch die Identifizierung von Defekten und deren anschließenden Beseitigung durch das Debugging zur Steigerung der Softwarequalität\grqq\ \cite{spillner_basiswissen_2003}
+Als möglicher Rahmen für die Anforderungen können z.B. die in \ref{sec:softwarequalität} bereits beschriebenen Qualitätsmerkmale dienen.
+
+
+\section{Testprozess}
+\label{sec:testprozess}
+
+Der Begriff des Softwaretests wie er in \ref{sec:softwaretest} beschrieben ist erfordert eine Einordnung in einen größeren Zusammenhang. Ein Softwaretest steht in der Regel nicht für sich alleine, sondern ist Teil eines größeren Prozesses der den Softwaretest in seinem gesamten Lebenszyklus begleitet.
+Durch den Testprozess wird die Aufgabe des Testens in kleinere Arbeitsschritte gegliedert.
+Die Phasen die man dabei unterscheidet sind:
+
+\begin{itemize}
+	  \itemsep0pt
+      \item Testplanung und Steuerung
+      \item Testanalyse und -design
+      \item Testrealisierung und -durchführung
+      \item Testauswertung und Berischt sowie Abschluss der Testaktivitäten       
+\end{itemize}
+
+Obgleich die Aufgaben in sequenzieller Reihenfolge im Testprozess angegeben sind, können sie sich überschneiden und teilweise auch gleichzeitig durchgeführt werden. Diese Teilaufgaben bilden einen Fundamentalen Testprozess und werden im Folgenden näher beschrieben. \cite[Seite 19]{spillner_basiswissen_2003}

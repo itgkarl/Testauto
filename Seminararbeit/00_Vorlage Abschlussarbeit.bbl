@@ -7,16 +7,6 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Bal98]{balzert_lehrbuch_1998}
-\textsc{Balzert}, Helmut:
-\newblock \emph{Lehrbuch der Software-Technik}.
-\newblock Heidelberg [u.a.] : Spektrum Akad. Verl., 1998 (Lehrbücher der
-  Informatik).
-\newblock
-  \url{http://gso.gbv.de/DB=2.1/CMD?ACT=SRCHA&SRT=YOP&IKT=1016&TRM=ppn+227915666&sourceid=fbw_bibsonomy}.
-  --
-\newblock ISBN 3827400651
-
 \bibitem[Bur03]{burnstein_practical_2003}
 \textsc{Burnstein}, Ilene:
 \newblock \emph{Practical Software Testing: A Process-Oriented Approach}.
@@ -48,5 +38,12 @@
   Automation of Software Test}.
 \newblock New York, {NY}, {USA} : {ACM}, 2006 ({AST} '06). --
 \newblock ISBN 1--59593--408--1, 85--91
+
+\bibitem[Spi03]{spillner_basiswissen_2003}
+\textsc{Spillner}, Andreas:
+\newblock \emph{Basiswissen Softwaretest}.
+\newblock 1. Aufl.
+\newblock Heidelberg : dpunkt-Verl., 2003. --
+\newblock ISBN 3--89864--178--3
 
 \end{thebibliography}
