@@ -41,9 +41,9 @@ Unter analytischen Qualitätsmanagement versteht man hier den Einsatz von analys
 Die Norm ISO/IEC/IEEE 24765:2010 3.280 definiert das testen von Software als \glqq the dynamic verification of the behavior of a program on a finite set of test cases, suitably selected from the usually infinite executions domain, against the expected behavior.\grqq\
 Aufgabe eines Softwaretests ist es dabei nicht einen Fehler im Code zu Lokalisieren und zu beheben. TODO:CITE
 Das Lokalisieren und Beheben des Defekts ist Aufgabe des Softwareentwicklers und wird auch als Debugging (Fehlerbereinigung, Fehlerkorrektur) bezeichnet.
-Während Debugging das Ziel hat, Defekte bzw. Fehlerzustände zu beheben, ist es Aufgabe des Tests, Fehlerwirkungen (die auf Defekte hinweisen) gezielt und systematisch aufzudecken. \cite{spillner_basiswissen_2003}
+Während Debugging das Ziel hat, Defekte bzw. Fehlerzustände zu beheben, ist es Aufgabe des Tests, Fehlerwirkungen (die auf Defekte hinweisen) gezielt und systematisch aufzudecken. \cite{spillner_basiswissen_2007}
 Dabei dienen definierte Anforderungen als Prüfreferenz, mittels derer ggf. vorhandene Fehler aufgedeckt werden.
-\glqq Das Testen von Software dient durch die Identifizierung von Defekten und deren anschließenden Beseitigung durch das Debugging zur Steigerung der Softwarequalität\grqq\ \cite{spillner_basiswissen_2003}
+\glqq Das Testen von Software dient durch die Identifizierung von Defekten und deren anschließenden Beseitigung durch das Debugging zur Steigerung der Softwarequalität\grqq\ \cite{spillner_basiswissen_2007}
 Als möglicher Rahmen für die Anforderungen können z.B. die in \ref{sec:softwarequalität} bereits beschriebenen Qualitätsmerkmale dienen.
 
 
@@ -51,15 +51,44 @@ Als möglicher Rahmen für die Anforderungen können z.B. die in \ref{sec:softwa
 \label{sec:testprozess}
 
 Der Begriff des Softwaretests wie er in \ref{sec:softwaretest} beschrieben ist erfordert eine Einordnung in einen größeren Zusammenhang. Ein Softwaretest steht in der Regel nicht für sich alleine, sondern ist Teil eines größeren Prozesses der den Softwaretest in seinem gesamten Lebenszyklus begleitet.
-Durch den Testprozess wird die Aufgabe des Testens in kleinere Arbeitsschritte gegliedert.
-Die Phasen die man dabei unterscheidet sind:
+Durch den Testprozess wird die Aufgabe des Testens in kleinere Testaufgaben gegliedert.
+Splinner und Linz fassen diesen Teataufgaben im fundamentalen Testprozess zusammen \cite{spillner_basiswissen_2007}
+
+
+Die Testaufgaben die man dabei unterscheidet sind:
 
 \begin{itemize}
 	  \itemsep0pt
       \item Testplanung und Steuerung
-      \item Testanalyse und -design
-      \item Testrealisierung und -durchführung
-      \item Testauswertung und Berischt sowie Abschluss der Testaktivitäten       
+      \item Testanalyse und Testdesign
+      \item Testrealisierung und Testdurchführung
+      \item Testauswertung und Bericht
+      \item Abschluss der Testaktivitäten       
 \end{itemize}
 
-Obgleich die Aufgaben in sequenzieller Reihenfolge im Testprozess angegeben sind, können sie sich überschneiden und teilweise auch gleichzeitig durchgeführt werden. Diese Teilaufgaben bilden einen Fundamentalen Testprozess und werden im Folgenden näher beschrieben. \cite[Seite 19]{spillner_basiswissen_2003}
+Obgleich die Aufgaben in sequenzieller Reihenfolge im Testprozess angegeben sind, können sie sich überschneiden und teilweise auch gleichzeitig durchgeführt werden. Diese Teilaufgaben werden im folgenden kurz näher beschreiben. Als Grundlage dient hierfür die Beschreibung des fundamentalen Testprozesses nach Splinner und Linz. \cite[S.20ff]{spillner_basiswissen_2007}
+
+\subsection{Testplanung und Steuerung}
+\label{subsec:testplanung_und_steuerung}
+Das Testen von Software stellt eine umfangreiche Aufgabe dar. Um diese zu beweltigen wird eine sorgfältig Planung benötigt.
+Mit der Planung des Testprozesses wird am Anfang des Softwareentwicklungsprojekts begonnen.
+Ziel ist es dabei die Rahmenbedingungen für die Testaktivitäten festzulegen.
+Nachdem Aufgaben und die Zielsetzung der Tests bestimmt wurden können die Resourcen die für die Durchführung der Aufgaben benötigt werden geplant werden.
+Kernaufgabe der Planung ist das Festlegen einer Teststrategie. Da ein vollständiger Test einer Anwendung in der Regel nicht möglich ist, müssen die zu testenden Einheiten nach Schwere der Fehlerwirkung priorisiert werden. Je nach schwere der zu erwarteten Auswirkungen kann dann die Intensität bestimmt werden mit der ein einzelner Systemteil getestet werden soll.
+Ziel der Teststrategie ist es also eine optimale Verteilung der Tests auf die gesamte Software zu erreichen.
+Dabei sind auch geeignete Testendekriterien festzulegen um zu entscheiden ob ein Testprozess abgeschlossen werden kann.
+Ein weiterer Punkt der in der Planungsphase benücksichtigt werden muss, ist die Beschaffung von geeigneten Werkzeugen die zur Durchführung und Erstellung der Testfälle benötigt werden.
+Die in der Planung erarbeiteten Ergebnisse werden in einem Testkonzept festgehalten.
+Eine mögliche Gliederung bietet z.B. die internationale Norm IEEE 829-2008. \cite{ieee_ieee_2008}
+Parallel zu den Testaktivitäten muss über den gesamten Testprozess eine Steuerung erfolgen.
+Der Fortschritt der Tests und des Projekts wird dabei laufend erhoben, geprüft und bewertet.
+
+\subsection{Testanalyse und Testdesign}
+\label{subsec:testanalyse_und_design}
+In dieser Phase wird die Testbasis überprüft, also die zugrunde liegenden Dokumente die für die Erstellung der Testfälle benötigt werden. Spezifikationen und Anforderungen müssen vollständig, konsistent und überprüfbar vorliegen.
+Anhand der in der Planung festgelegten Teststrategie und der Testbasis können nun Testfälle erstellt werden.
+Die Spezifikation der Testfälle erfolgt dabei in zwei Stufen. Testfälle werden zunächst recht allgemein definieren. Diese allgemeinen Testfälle können dann später mit tatsächlichen Eingabewerten konkretisiert werden.
+Zu der Spezifikation eines Testfalls gehören nicht nur die notwendigen Eingaben, sondern auch etwaige Rand- und Vorbedingungen sowie ein erwartetes Ergebnis. Um letzteres bestimmen zu können muss ein so genanntes Testorakel befragt werden. Hierbei handelt es sich um eine Quelle, die auf das erwartete Ergebnis schließen lässt.
+
+\subsection{Testrealisierung und Testdurchführung}
+\label{subsec:testrealisierung_und_durchführung}

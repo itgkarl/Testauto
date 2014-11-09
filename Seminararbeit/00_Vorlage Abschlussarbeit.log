@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.27)  4 NOV 2014 15:12
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.27)  10 NOV 2014 00:17
 entering extended mode
 **00_Vorlage*Abschlussarbeit.tex
 
@@ -777,7 +777,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<img/logos.jpg, id=31, 1431.84938pt x 729.47531pt>
+<img/logos.jpg, id=43, 1431.84938pt x 729.47531pt>
 File: img/logos.jpg Graphic file (type jpg)
  <use img/logos.jpg>
 Package pdftex.def Info: img/logos.jpg used on input line 6.
@@ -849,29 +849,30 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 
 
 
-] [3]) [4]
+] [3] [4])
+[5]
 ("F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbe
 it\00_Vorlage Abschlussarbeit.lof")
 \tf@lof=\write5
- [5
+ [6
 
 
 ]
 ("F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbe
 it\00_Vorlage Abschlussarbeit.bbl"
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 30.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 29.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 2221) in paragraph at lines 26--32
+Underfull \hbox (badness 1460) in paragraph at lines 33--39
 []\T1/lmr/m/sc/12 International Or-ga-ni-za-ti-on for Stan-dar-di-za-ti-on (ISO
 )\T1/lmr/m/n/12 :  \T1/lmr/m/it/12 SO/IEC
  []
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
- [6
+ [7
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
@@ -893,16 +894,20 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `00_Vorlage*Abschlussarbeit.out' has not chan
 ged.
 (rerunfilecheck)             Checksum: <no file>.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 8628 strings out of 493921
- 131724 string characters out of 3144866
- 238441 words of memory out of 3000000
- 11706 multiletter control sequences out of 15000+200000
- 62052 words of font info for 48 fonts, out of 3000000 for 9000
+ 8641 strings out of 493921
+ 131991 string characters out of 3144866
+ 240672 words of memory out of 3000000
+ 11714 multiletter control sequences out of 15000+200000
+ 64820 words of font info for 49 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
- 38i,14n,47p,462b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,14n,47p,462b,393s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
@@ -912,9 +917,9 @@ lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on "00_Vorlage Abschlussarbeit.pdf" (10 pages, 343817 bytes).
+Output written on "00_Vorlage Abschlussarbeit.pdf" (11 pages, 353066 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 167 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
