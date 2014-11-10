@@ -9,3 +9,7 @@
 \contentsline {subsection}{\numberline {2.3.1}Testplanung und Steuerung}{4}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Testanalyse und Testdesign}{5}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Testrealisierung und Testdurchf\IeC {\"u}hrung}{5}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Testauswertung und Bericht}{5}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Abschluss der Testaktivit\IeC {\"a}ten}{6}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.4}Softwarelebenszyklus}{6}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}V-Modell}{6}{subsection.2.4.1}

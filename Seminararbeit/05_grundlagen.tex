@@ -87,8 +87,68 @@ Der Fortschritt der Tests und des Projekts wird dabei laufend erhoben, geprüft 
 \label{subsec:testanalyse_und_design}
 In dieser Phase wird die Testbasis überprüft, also die zugrunde liegenden Dokumente die für die Erstellung der Testfälle benötigt werden. Spezifikationen und Anforderungen müssen vollständig, konsistent und überprüfbar vorliegen.
 Anhand der in der Planung festgelegten Teststrategie und der Testbasis können nun Testfälle erstellt werden.
-Die Spezifikation der Testfälle erfolgt dabei in zwei Stufen. Testfälle werden zunächst recht allgemein definieren. Diese allgemeinen Testfälle können dann später mit tatsächlichen Eingabewerten konkretisiert werden.
-Zu der Spezifikation eines Testfalls gehören nicht nur die notwendigen Eingaben, sondern auch etwaige Rand- und Vorbedingungen sowie ein erwartetes Ergebnis. Um letzteres bestimmen zu können muss ein so genanntes Testorakel befragt werden. Hierbei handelt es sich um eine Quelle, die auf das erwartete Ergebnis schließen lässt.
+Die Spezifikation der Testfälle erfolgt dabei in zwei Stufen. Testfälle werden in dieser Phase zunächst recht allgemein definieren. Diese allgemeinen Testfälle können dann später mit tatsächlichen Eingabewerten konkretisiert werden.
+Zu der Spezifikation eines Testfalls gehören auch etwaige Rand- und Vorbedingungen sowie ein erwartetes Ergebnis. Um letzteres bestimmen zu können muss ein so genanntes Testorakel befragt werden. Hierbei handelt es sich um eine Quelle, die auf das erwartete Ergebnis schließen lässt. Ein mögliches Testorakel wäre beispielsweise die Spezifikation der Software.
 
 \subsection{Testrealisierung und Testdurchführung}
 \label{subsec:testrealisierung_und_durchführung}
+In diesem Schritt des Testprozesses werden aus den allgemein gehaltenen Testfällen konkrete Testfälle gebildet. Diese Testfälle können dann zusammen mit der Testinfrastruktur im Detail realisiert werden. Logisch zusammengehörige Testfälle werden dabei in Testszenarien gruppiert. Dabei ist die in der Planung festgelegte Priorität der Testfälle zu berücksichtigen.
+Wenn das Testobjekt zur Verfügung steht beginnt die Abarbeitung der Testfälle. Jede Durchführung und deren Ergebnisse werden Protokolliert. Auf mögliche Abweichungen von den erwarteten Ergebnissen muss entsprechend reagiert werden. Nach der Korrektur des Fehlers ist zu überprüfen ob der Fehler wirklich beseitigt wurde und bei der Beseitigung keine weiteren Fehlerzustände hinzugekommen sind.
+
+\subsection{Testauswertung und Bericht}
+\label{subsec:testauswertung_und_bericht}
+In dieser Phase des Testprozesses wird überprüft die in der Planung festgelegten Testendkriterien erfüllt sind. Dabei kann es zu unterschiedlichen Ergebnissen kommen.
+Sind ein oder mehrere Kriterien nicht erfüllt müssen eventuell weitere Tests spezifiziert und durchgeführt werden. Ein Ergebnis kann jedoch auch sein, dass der Aufwand zum erfüllen der Testendekriterien nicht in einem angemessenem Verhältnis zum Aufwand steht. In diesem Fall kann auch auf weitere Tests verzichtet werden. Bei dieser Entscheidung ist jedoch das damit verbundene Risiko berücksichtigt werden.
+Ist das Testende erreicht, ist ein zusammenfassender Bericht an die Entscheidungsträger zu erstellen. Je nach dem wie Kritisch die betrachteten Tests sind, kann diese Bericht mehr oder weniger formal ausfallen.
+
+\subsection{Abschluss der Testaktivitäten}
+\label{subsec:abschluss_der_testaktivitäten}
+Am Ende des Testprozesses steht ein kritischer Rückblick auf die durchgeführten Tätigkeiten. Die gemachten Erfahrungen müssen analysiert werden. Probleme die in diesem Testprozess aufgetreten sind können so in folgenden Projekten vermieden werden.
+Auf diese weise kann der Testprozess ständig verbessert werden.
+Um im Zeitraum der Wartung die Testfälle erneut durchführen zu können sollten die verwendeten Tools so wie die eingesetzten Testsysteme und Testrahmen konserviert werden.
+
+
+\section{Softwarelebenszyklus}
+\label{sec:softwarelebenszyklus}
+Der Testprozess und seine Aktivitäten sind nur ein Teil des Gesamtprojekts und bilden mit dem Anforderungsmanagement, der Designphase und der Entwicklung den Kern des Projekts. Dazu kommen noch unterstützende Prozesse wie Projekt-, Release oder Konfigurationsmanagement. Die zeitliche und inhaltliche Ausgestaltung dieser Phasen ergibt ein Softwareentwicklungsmodell bzw. ein Projektvorgehen. \cite{seidl_basiswissen_2012}
+Aus Sicht des Testens spielt hier das allgemeine V-Modell nach Boehm eine besondere Rolle.
+
+
+\subsection{V-Modell}
+\label{subsec:vmodell}
+Die Grundidee des allgemeinen V-Modells ist, dass Entwicklungsarbeiten und Testarbeiten zueinander korrespondierende, gleichberechtigte Tätigkeiten sind. Bildlich dargestellt wird dies durch die zwei Äste eines \glqq V \grqq s.
+Der linke Ast steht für die immer detaillierter werdenden Entwicklungsschritte mit denen das System Schritt für Schritt realisiert wird. Der rechte Ast steht für Integrations- und Testatbeiten, in deren Verlauf elementare Programmbausteine sukzessive zu größeren Teilsystemen zusammengesetzt (integriert) und jeweils auf  die richtige Funktion gegen die korrespondierenden Spezifikation des linken Astes geprüft werden.
+\cite{spillner_basiswissen_2007} \\
+Das V-Modell wird in zahlreichen unterschiedlichen Versionen dargestellt. 
+Je nach Literaturquelle und Interpretation des Anwenders variieren Benennung und Anzahl der Phasen.
+\\ \\
+Ein bildliches Beispiel für ein allgemeines V-Modell kann in Abbildung \ref{fig:vModel} gesehen werden.\\
+
+\begin{figure}[htb]
+  \centering  
+  \includegraphics[scale=0.8]{img/vModell.jpg}\\
+  \footnotesize\sffamily\textbf{Quelle:} \cite{spillner_basiswissen_2007}
+  \caption{allgemeines V-Modell}
+  \label{fig:vModel}
+\end{figure}
+
+
+Die Aktivitäten des linke Astes lassen wie folgt beschreiben \cite{spillner_basiswissen_2007}
+
+\begin{itemize}
+      \item \textbf{Anforderungsdefinition:} Die Wünsche und Anforderung des Auftraggebers oder späteren Systemanwenders werden gesammelt, spezifiziert und verabschiedet. Zweck und gewünschte Leistungsmerkmale des zu erstellenden Softwaresystems liegen damit fest.
+      \item \textbf{Funktionaler Systementwurf:} Die Anforderungen werden auf Funktionen und Dialoge des neuen Systems abgebildet.
+      \item \textbf{Technischer Systementwurf:} Die technische Realisierung des Systems wird entworfen. Hierzu gehören u.a.: Definition der Schnittstellen zur Systemumwelt und die Zerlegung des Systems in übershcubare Teilsysteme, die möglichst unabhängig voneinander entwickelt werden können.
+      \item \textbf{Komponentenspezifikation:} Für jedes Teilsystem werden Aufgaben, Verhalten, innerer Aufbau und Schnittstellen zu anderen Teilsystemen definiert.
+      \item \textbf{Programmierung:} Programmierung jedes spezifizierten Bausteins in eier Programmiersprache 
+\end{itemize}
+
+
+Der rechte Ast beschreibt zu den oben aufgeführten konstruktiven Aktivitäten eine korrespondierende Teststufe: \cite{spillner_basiswissen_2007}
+
+\begin{itemize}
+      \item \textbf{Komponententest:} Prüft, ob jeder einzelne Softwarebaustein für sich die Vorgaben seiner Spezifikation erfüllt.
+      \item \textbf{Integrationstest:} Prüft, o Gruppen von Komponenten wie im teschnischen Systementwurf vorgesehen zusammenspielen.
+      \item \textbf{Systemtest:} Prüft, ob das System als Genzes die spezifizierten Anforderungen erfüllt.
+      \item \textbf{Abnahmetest:} Prüft, ob das System aus Kundensicht die vertraglich vereinbarten Leistungsmerkmale aufweist.
+\end{itemize}

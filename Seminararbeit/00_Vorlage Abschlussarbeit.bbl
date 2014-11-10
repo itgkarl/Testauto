@@ -24,18 +24,16 @@
 
 \bibitem[{IEE}08]{ieee_ieee_2008}
 \textsc{{IEEE}}:
-\newblock \emph{{IEEE} Standard for Software and System Test Documentation}.
-\newblock
-  \url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4578383}.
-\newblock \,Version:\,Juli 2008
+\newblock \emph{{IEEE} Std 829-2008 {IEEE} Standard for Software and System
+  Test Documentation}.
+\newblock Juli 2008
 
 \bibitem[{Int}14]{international_organization_for_standardization_iso_so/iec_2014}
 \textsc{{International Organization for Standardization (ISO)}}:
 \newblock \emph{{SO}/{IEC} 25000:2014, Systems and software engineering —
   Systems and software Quality Requirements and Evaluation ({SQuaRE}) — Guide
   to {SQuaRE}}.
-\newblock \url{https://www.iso.org/obp/ui/#iso:std:iso-iec:25000:ed-2:v1:en}.
-\newblock \,Version:\,M{\^^b a}rz 2014
+\newblock M{\^^b a}rz 2014
 
 \bibitem[RW06]{ramler_economic_2006}
 \textsc{Ramler}, Rudolf ; \textsc{Wolfmaier}, Klaus:
@@ -45,6 +43,14 @@
   Automation of Software Test}.
 \newblock New York, {NY}, {USA} : {ACM}, 2006 ({AST} '06). --
 \newblock ISBN 1--59593--408--1, 85--91
+
+\bibitem[Sei12]{seidl_basiswissen_2012}
+\textsc{Seidl}, Richard:
+\newblock \emph{Basiswissen Testautomatisierung / Richard Seidl ; Manfred
+  Baumgartner ; Thomas Bucsics}.
+\newblock 1. Aufl.
+\newblock Heidelberg : dpunkt-Verl., 2012. --
+\newblock ISBN 978--3--89864--724--3
 
 \bibitem[SL07]{spillner_basiswissen_2007}
 \textsc{Spillner}, Andreas ; \textsc{Linz}, Tilo:
