@@ -1,0 +1,135 @@
+{
+  "Unit Tests": {
+    "coverage": {
+      "/home/karl/workspace/Webanwendung/toDo/app/models/todo.rb": [
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/home/karl/workspace/Webanwendung/toDo/test/models/todo_test.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1415715442
+  },
+  "Unknown Test Framework": {
+    "coverage": {
+      "/home/karl/workspace/Webanwendung/toDo/app/controllers/todos_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/home/karl/workspace/Webanwendung/toDo/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/home/karl/workspace/Webanwendung/toDo/app/helpers/application_helper.rb": [
+        1,
+        null,
+        null
+      ],
+      "/home/karl/workspace/Webanwendung/toDo/app/helpers/todos_helper.rb": [
+        1,
+        null
+      ],
+      "/home/karl/workspace/Webanwendung/toDo/app/helpers/welcome_helper.rb": [
+        1,
+        null
+      ],
+      "/home/karl/workspace/Webanwendung/toDo/app/models/todo.rb": [
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1415715535
+  }
+}

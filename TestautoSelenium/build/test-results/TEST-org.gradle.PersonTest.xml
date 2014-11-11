@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.gradle.PersonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2014-10-27T23:27:25" hostname="karl-virtual-machine" time="0.002">
+<testsuite name="org.gradle.PersonTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2014-10-28T19:13:11" hostname="karl-virtual-machine" time="135.986">
   <properties/>
   <testcase name="canConstructAPersonWithAName" classname="org.gradle.PersonTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Oct 27, 2014 4:27:25 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+  <testcase name="test" classname="org.gradle.PersonTest" time="135.979"/>
+  <system-out><![CDATA[Page title is: ToDo
+]]></system-out>
+  <system-err><![CDATA[Oct 28, 2014 12:13:10 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
 INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-Oct 27, 2014 4:27:25 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+Oct 28, 2014 12:13:10 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
 INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
-Oct 27, 2014 4:27:25 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+Oct 28, 2014 12:13:10 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
 INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
-Oct 27, 2014 4:27:25 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+Oct 28, 2014 12:13:10 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
 INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
-Oct 27, 2014 4:27:25 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
-INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@d5714b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@100fa88]
-Oct 27, 2014 4:27:25 PM org.springframework.context.support.GenericApplicationContext prepareRefresh
-INFO: Refreshing org.springframework.context.support.GenericApplicationContext@c0e18b: startup date [Mon Oct 27 16:27:25 PDT 2014]; root of context hierarchy
+Oct 28, 2014 12:13:10 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@14a4fd2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1be71fd]
+Oct 28, 2014 12:13:11 PM org.springframework.context.support.GenericApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.GenericApplicationContext@af8fc0: startup date [Tue Oct 28 12:13:10 PDT 2014]; root of context hierarchy
 ]]></system-err>
 </testsuite>
