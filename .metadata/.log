@@ -613,3 +613,50 @@ java.lang.ArrayIndexOutOfBoundsException: 28
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2014-11-11 05:51:48.591 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-11-11 05:51:55.862
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2014-11-11 05:51:57.090
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY org.springsource.ide.eclipse.gradle.core 1 0 2014-11-11 05:53:13.617
+!MESSAGE org.eclipse.wst.common.componentcore.ComponentCore cannot be found by org.springsource.ide.eclipse.gradle.core_3.6.2.201410090835-RELEASE
+!STACK 0
+java.lang.ClassNotFoundException: org.eclipse.wst.common.componentcore.ComponentCore cannot be found by org.springsource.ide.eclipse.gradle.core_3.6.2.201410090835-RELEASE
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:432)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:191)
+	at org.springsource.ide.eclipse.gradle.core.wtp.WTPUtil.createImplementation(WTPUtil.java:250)
+	at org.springsource.ide.eclipse.gradle.core.wtp.WTPUtil.<clinit>(WTPUtil.java:246)
+	at org.springsource.ide.eclipse.gradle.core.GradleDependencyComputer.addJarEntry(GradleDependencyComputer.java:77)
+	at org.springsource.ide.eclipse.gradle.core.GradleDependencyComputer.computeEntries(GradleDependencyComputer.java:124)
+	at org.springsource.ide.eclipse.gradle.core.GradleDependencyComputer.ensureComputedFor(GradleDependencyComputer.java:180)
+	at org.springsource.ide.eclipse.gradle.core.GradleDependencyComputer.getProjectEntries(GradleDependencyComputer.java:172)
+	at org.springsource.ide.eclipse.gradle.core.GradleProject.setProjectDependencies(GradleProject.java:451)
+	at org.springsource.ide.eclipse.gradle.core.GradleProject.refreshProjectDependencies(GradleProject.java:157)
+	at org.springsource.ide.eclipse.gradle.core.GradleProject.refreshDependencies(GradleProject.java:137)
+	at org.springsource.ide.eclipse.gradle.core.actions.RefreshDependenciesActionCore$1$1.doit(RefreshDependenciesActionCore.java:61)
+	at org.springsource.ide.eclipse.gradle.core.actions.Continuable.doit(Continuable.java:44)
+	at org.springsource.ide.eclipse.gradle.core.util.GradleRunnable$1.run(GradleRunnable.java:53)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
