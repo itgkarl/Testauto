@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.27)  15 NOV 2014 17:17
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.27)  17 NOV 2014 22:52
 entering extended mode
 **00_Vorlage*Abschlussarbeit.tex
 
@@ -576,6 +576,44 @@ Package color Info: Driver file: pdftex.def on input line 130.
 Package: transparent 2007/01/08 v1.0 Transparency via pdfTeX's color stack (HO)
 
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen118
+\captionmargin@=\dimen119
+\captionwidth=\dimen120
+\caption@tempdima=\dimen121
+\caption@indent=\dimen122
+\caption@parindent=\dimen123
+\caption@hangindent=\dimen124
+)
+Package caption Info: KOMA-Script document class.
+\c@ContinuedFloat=\count104
+Package caption Info: hyperref package is loaded.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen125
+\lightrulewidth=\dimen126
+\cmidrulewidth=\dimen127
+\belowrulesep=\dimen128
+\belowbottomsep=\dimen129
+\aboverulesep=\dimen130
+\abovetopsep=\dimen131
+\cmidrulesep=\dimen132
+\cmidrulekern=\dimen133
+\defaultaddspace=\dimen134
+\@cmidla=\count105
+\@cmidlb=\count106
+\@aboverulesep=\dimen135
+\@belowrulesep=\dimen136
+\@thisruleclass=\count107
+\@lastruleclass=\count108
+\@thisrulewidth=\dimen137
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks18
@@ -595,46 +633,46 @@ Package: amstext 2000/06/29 v2.01
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks19
-\ex@=\dimen118
+\ex@=\dimen138
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen119
+\pmbraise@=\dimen139
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count104
+\inf@bad=\count109
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count105
-\leftroot@=\count106
+\uproot@=\count110
+\leftroot@=\count111
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count107
-\DOTSCASE@=\count108
+\classnum@=\count112
+\DOTSCASE@=\count113
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
-\big@size=\dimen120
+\big@size=\dimen140
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count109
-\c@MaxMatrixCols=\count110
+\macc@depth=\count114
+\c@MaxMatrixCols=\count115
 \dotsspace@=\muskip11
-\c@parentequation=\count111
-\dspbrk@lvl=\count112
+\c@parentequation=\count116
+\dspbrk@lvl=\count117
 \tag@help=\toks20
-\row@=\count113
-\column@=\count114
-\maxfields@=\count115
+\row@=\count118
+\column@=\count119
+\maxfields@=\count120
 \andhelp@=\toks21
-\eqnshift@=\dimen121
-\alignsep@=\dimen122
-\tagshift@=\dimen123
-\tagwidth@=\dimen124
-\totwidth@=\dimen125
-\lineht@=\dimen126
+\eqnshift@=\dimen141
+\alignsep@=\dimen142
+\tagshift@=\dimen143
+\tagwidth@=\dimen144
+\totwidth@=\dimen145
+\lineht@=\dimen146
 \@envbody=\toks22
 \multlinegap=\skip58
 \multlinetaggap=\skip59
@@ -656,21 +694,21 @@ t\04_einleitung.aux)
 t\05_grundlagen.aux)
 (F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbei
 t\06_testautomatisierung.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 68.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -710,18 +748,18 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring ON on input line 67.
+Package hyperref Info: Link coloring ON on input line 68.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count116
+\c@section@level=\count121
 )
-LaTeX Info: Redefining \ref on input line 67.
-LaTeX Info: Redefining \pageref on input line 67.
-LaTeX Info: Redefining \nameref on input line 67.
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
 
 ("F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbe
 it\00_Vorlage Abschlussarbeit.out")
@@ -731,18 +769,21 @@ it\00_Vorlage Abschlussarbeit.out")
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count117
-\scratchdimen=\dimen127
+\scratchcounter=\count122
+\scratchdimen=\dimen147
 \scratchbox=\box30
-\nofMPsegments=\count118
-\nofMParguments=\count119
+\nofMPsegments=\count123
+\nofMParguments=\count124
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count120
-\MPscratchDim=\dimen128
-\MPnumerator=\count121
-\makeMPintoPDFobject=\count122
+\MPscratchCnt=\count125
+\MPscratchDim=\dimen148
+\MPnumerator=\count126
+\makeMPintoPDFobject=\count127
 \everyMPtoPDFconversion=\toks25
 )
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
 (F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbei
 t\01_titel.tex
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 2.
@@ -780,7 +821,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<img/logos.jpg, id=63, 1431.84938pt x 729.47531pt>
+<img/logos.jpg, id=91, 1431.84938pt x 729.47531pt>
 File: img/logos.jpg Graphic file (type jpg)
  <use img/logos.jpg>
 Package pdftex.def Info: img/logos.jpg used on input line 6.
@@ -834,7 +875,7 @@ a-chen jetzt schon einen Groÿ-
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.97 \include{04_einleitung}
+l.98 \include{04_einleitung}
                              [1
 
 
@@ -863,7 +904,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--126
 
  []
 
-<img/vModell.jpg, id=143, 542.025pt x 288.3272pt>
+<img/vModell.jpg, id=178, 542.025pt x 288.3272pt>
 File: img/vModell.jpg Graphic file (type jpg)
  <use img/vModell.jpg>
 Package pdftex.def Info: img/vModell.jpg used on input line 129.
@@ -874,31 +915,61 @@ ararbeit/img/vModell.jpg>]) [8]
 (F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbei
 t\06_testautomatisierung.tex
 Kapitel 3.
-) [9
+
+Underfull \hbox (badness 1590) in paragraph at lines 20--21
+\T1/lmr/m/n/12 für ei-ne neue Ver-si-on ei-nes Pro-
+ []
+
+
+Underfull \hbox (badness 6236) in paragraph at lines 26--26
+[]\T1/lmr/m/n/12 Führe Tests durch die ma-nu-ell
+ []
+
+
+Underfull \hbox (badness 7649) in paragraph at lines 31--31
+[]\T1/lmr/m/n/12 Wiederholbarkeit und Kon-sis-tenz
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 19--40
+[][] 
+ []
+
+[9
 
 
 
-]
+] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]\T1/lmr/m/n/12 Erwartung, dass au-to-ma-ti-sier-te
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 58--76
+[][] 
+ []
+
+[11] [12] [13]) [14]
 ("F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbe
 it\00_Vorlage Abschlussarbeit.lof")
 \tf@lof=\write5
- [10
+ [15
 
 
 ]
 ("F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbe
-it\00_Vorlage Abschlussarbeit.bbl"
-Underfull \hbox (badness 1460) in paragraph at lines 32--37
-[]\T1/lmr/m/sc/12 International Or-ga-ni-za-ti-on for Stan-dar-di-za-ti-on (ISO
-)\T1/lmr/m/n/12 :  \T1/lmr/m/it/12 SO/IEC
- []
-
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
- [11
+it\00_Vorlage Abschlussarbeit.lot")
+\tf@lot=\write6
+ [16
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
+("F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbe
+it\00_Vorlage Abschlussarbeit.bbl" [17
+
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
+ [18]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
 
 ("F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbe
 it\00_Vorlage Abschlussarbeit.aux"
@@ -914,21 +985,21 @@ t\04_einleitung.aux)
 t\05_grundlagen.aux)
 (F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbei
 t\06_testautomatisierung.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
 Package rerunfilecheck Info: File `00_Vorlage*Abschlussarbeit.out' has not chan
 ged.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 8644 strings out of 493921
- 132637 string characters out of 3144866
- 241376 words of memory out of 3000000
- 11700 multiletter control sequences out of 15000+200000
+ 9745 strings out of 493921
+ 153116 string characters out of 3144866
+ 268364 words of memory out of 3000000
+ 12761 multiletter control sequences out of 15000+200000
  73030 words of font info for 51 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
- 38i,14n,47p,506b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,14n,47p,807b,448s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
@@ -938,9 +1009,9 @@ lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on "00_Vorlage Abschlussarbeit.pdf" (15 pages, 399689 bytes).
+Output written on "00_Vorlage Abschlussarbeit.pdf" (22 pages, 436838 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 331 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
 
