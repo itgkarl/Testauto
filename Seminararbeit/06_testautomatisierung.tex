@@ -81,8 +81,8 @@ Organisatorische fragen. & Eine Erfolgreiche Testautomatisierung erfordert einen
 
 
 
-\section{Bereicher der Testautomatisierung}
-\label{sec:bereicher_der_estautomatisierung}
+\section{Bereiche der Testautomatisierung}
+\label{sec:bereiche_der_estautomatisierung}
 
 Die Vor- und Nachteile der Testautomatisierung wie sie in Kapitel \ref{sec:warum_testautomatisierung} beschreiben sind beziehen sich Hauptsächlich auf die automatisierte Durchführung von Testfällen. Hierauf soll auch der Fokus dieser Arbeit liegen. Wie aber bereits eingangs in Kapitel \ref{sec:testautomatisierung} erwähnt, erstreckt sich die Möglichkeit zur Testautomatisierung über den gesamten Bereich des Testprozesses.
 Eine dem Testprozess recht ähnliche jedoch leicht andere Unterteilung für die Bereiche der Testautomatisierung schlägt Amannejad et al. \cite{amannejad_search-based_2014} vor.
@@ -91,15 +91,15 @@ Er Unterteilt die Testautomatisierung im Testprozess in vier Aufgaben:
 \begin{itemize}
 	  \itemsep0pt
       \item Testdesign: Erstellen einer Liste von Testfällen um gewisse Akzeptanzkriterien zu prüfen.
-      \item Testerstellung: Erstellen von automatisiertem Testcode.
-      \item Testausführung: Ausführen von Testfällen und aufzeichnen der Ergebnisse.
+      \item Testcodeerstellung: Erstellen von automatisiertem Testcode.
+      \item Testdurchführung: Ausführen von Testfällen und aufzeichnen der Ergebnisse.
       \item Testauswertung: Auswerten der aufgezeichneten Testergebnisse.         
 \end{itemize}
 
 \subsection{Testdesign}
 \label{subsec:testdesign}
-Unter Testdesign versteht man das erstellen einer Liste von Testfällen um gewisse Akzeptanzkriterien zu prüfen. Darunter fällt auch das identifizieren von Testdaten wie mögliche Eingabewerte und erwartete Ergebnisse. Hierfür gibt es zahlreiche Ansätze die manuell, aber auch toolgestützt und damit automatisiert durchgeführt werden können.
-Unter dem Oberbegriff er Kombinatorik existieren einige Testfallentwurfsmethoden die vor allem darauf abzielen eine sinnvolle Auswahl ein Eingabedaten zu ermitteln.
+Unter Testdesign versteht man das erstellen von Testfällen um gewisse Akzeptanzkriterien zu prüfen. Darunter fällt auch das identifizieren von Testdaten wie mögliche Eingabewerte und erwartete Ergebnisse. Hierfür gibt es zahlreiche Ansätze die manuell, aber auch toolgestützt und damit automatisiert durchgeführt werden können.
+Unter dem Oberbegriff er Kombinatorik existieren einige Testfallentwurfsmethoden die vor allem darauf abzielen eine sinnvolle Auswahl an Eingabedaten zu ermitteln.
 Nach Seid et al. fallen darunter: \cite[Seite 27]{seidl_basiswissen_2012}
 \begin{itemize}
 	  \itemsep0pt
@@ -107,46 +107,65 @@ Nach Seid et al. fallen darunter: \cite[Seite 27]{seidl_basiswissen_2012}
       \item Grenzwertanalyse.
       \item Klassifikationsbaummethode.
 \end{itemize}
-Fewster und Graham \cite[Seite 19 ff.]{fewster_software_1999} beschreiben eine weitere Möglichkeit bei der Tools direkt den Code und die Interfaces des zu testenden Systems verwenden um Eingabedaten zu Generieren.
-Ein weiterer weg zum automatisierten Design von Testfällen den Seidel et al. aufzeigen \cite[Seite 33]{seidl_basiswissen_2012} sind Modellbasierte Techniken. In Modellbasierten Techniken wird das zu testende System in einem hohen Detailgrad durch Modelle abgebildet. Mit Hilfe dieser Modelle ist es möglich Testfälle abzuleiten. 
+Fewster und Graham \cite[Seite 19 ff.]{fewster_software_1999} beschreiben eine weitere Möglichkeit bei der Tools direkt den Code und die Interfaces des zu testenden Systems verwenden um Eingabedaten abzuleiten.
+Ein weiterer weg zum automatisierten Design von Testfällen den Seidel et al. aufzeigen \cite[Seite 33]{seidl_basiswissen_2012} sind Modellbasierte Techniken. In Modellbasierten Techniken wird das zu testende System in einem hohen Detailgrad durch Modelle abgebildet. Mit Hilfe dieser Modelle ist es möglich Testfälle abzuleiten.
+Viele weitere Ansätze sind möglich. So beschreiben Last et al. beispielsweise ein Ansatz der data mining verwendet. \cite{last_data_2003}
+Memon et al. beschreiben einen weiteren Ansatz zum erzeugen von Testfällen für grafische Benutzeroberflächen. \cite{memon_using_1999}
+Eine weitere Möglichkeit die an den Anforderungen der Software ansetzt wird von Tahat et al. beschreiben. \cite{tahat_requirement-based_2001}
 
-data mining approach \cite{last_data_2003}
-Goal-driven Approach \cite{memon_using_1999}
-requirement-based test generatio \cite{tahat_requirement-based_2001}
-
-\subsection{Testerstellung}
-\label{subsec:testerstellung}
-Capture and reply --> verwenden für datadriven. Keyworddriven
-Über Modellbasierte Techniken ist es nicht nur möglich Testfalldesigns abzuleiten. Bei entsprechend hohen Detailgrad der Modelle ist auch eine automatisierte Erzeugung von Testfällen möglich.
+\subsection{Testcodeerstellung}
+\label{subsec:testcodeerstellung}
+Beim manuellen Testen versteht man unter der Testcodeerstellung das Dokumentieren von Testfällen die in der vorangegangenen Phase gefunden wurden. 
+Im Bereich der Testautomatisierung versteht man darunter das erzeugen von wirklichem Testcode.
+In der Regel handelt es sich bei der Testcodeerstellung um einen manuellen Prozess bei dem ein Softwareentwickler die zuvor designeten Testfälle als Code entwickelt.
+Weit verbreitet sind in diesem Bereich aber auch halb automatisierte Methoden. Diese basieren auf sogenannten \glqq recorde-and-playback\grqq\ Tools. Die Tools zeichnen dabei die Interaktionen eines Benutzers mit der grafischen Oberfläche der zu testenden Anwendung auf und generieren daraus Testskripte.
+Im Anschluss können die aufgezeichneten Abläufe beliebig oft wiederholt werden.
+So erzeugt Skripte können dann beispielsweise angepasst und verwendet werden um in einem daten getriebenen Ansatz eine ganze Reihe an Testfällen abzuarbeiten.
+Die in der Designphase durch Kombinatorische Methoden erzeugten Eingabedaten können hierfür zum Beispiel als Datenbasis dienen.
+Neben halbautomatischen Methoden ist es auch möglich die Erstellung von Testcode voll zu automatisieren.
+Über Modellbasierte Techniken ist es nicht nur möglich Testfalldesigns abzuleiten. Bei entsprechend hohen Detailgrad der Modelle können Testskripte auch voll automatisierte Erzeugung werden.
 Bouquet et al. \cite{bouquet_test_2008} beschreiben beispielsweise eine Modellbasiertes Framework welches das automatisierte designen, generieren, managen und ausführen von Testfällen unterstützt.
-Oft werden dazu unterstützend sogenannte Testorakel benutzt. Unter einem Testorakel versteht man eine Quelle die Auskunft über einen zu erwartendes Ergebnis in einem Testfall gibt. Es gibt zahlreiche Ansätze diese Testorakel in unterschiedlichen Bereichen wie Spezifikation und GUI zu automatisieren. \cite{memon_automated_2000} \cite{richardson_specification-based_1992}
-\cite{shahamiri_comparative_2009} Diese Automatisierten Testorakel können bei der automatisierten Testfallerzeugung als Quelle für die Erwarteten Ergebnisse dienen.
-Für die Erzeugung der eigentlichen Testfälle können wie schon beim Testfalldesign modellbasierte Ansätze verwendet werden.
-Auch Daten getriebene Ansätze sind möglich.
-Keworddriven
 
-\subsection{Testausführung}
-\label{subsec:testausführung}
-
+\subsection{Testdurchführung}
+\label{subsec:testdurchführung}
+Unter Testausführung versteht man das Ausführen der zuvor erstellten Testskripte so wie das aufzeichnen der Testergebnisse.
+Die Testausführung ist der Bereich, der nach Erfahrungen von Amannejad et al. \cite{amannejad_search-based_2014} am engsten mit der Testautomatisierung verbunden wird. Ähnlich wie in den vorangegangenen Phasen ist auch hier ein manuelles, halb automatisiertes und vollautomatisiertes vorgehen möglich.
+Für welches Vorgehen man sich entscheidet hängt jedoch stark von den Entscheidungen in den vorangegangenen Phasen ab.
+Hat man sich in den vorangegangenen Phasen für ein manuelles testen entschieden ist es nicht mehr möglich die Ausführung automatisiert durchzuführen. Liegen die Testfälle jedoch bereits als automatische Testskripte vor kann auch die Ausführung der Skripte automatisch erfolgen.
 
 \subsection{Testauswertung}
 \label{subsec:testauswertung}
-By consulting several books a
-nd online resources [17-19]
-on software testing and incorpo
-rating different views and
-classifications, we divide the tes
-ting tasks into four types:
-1. Test-case design: Designating the list of test cases or
-test requirements to satisfy coverage criteria, or other
-engineering goals.
-2. Test scripting: Documenting test cases in manual test
-scripts or automated test code.
-3. Test execution: Running test cases on the software
-under test and recording the outputs.
-4. Test evaluation: Evaluat
-ing results of testing (pass or
-fail), also known as test oracle or test verdict (Searchbased III)
+Nachdem ein Testfall ausgeführt worden ist, muss das erhaltenen Ergebnis gegen einen erwarteten Wert geprüft werden.
+Diese Überprüfung kann manuell durch einen Tester erfolgen. 
+In einer automatisierten Umgebung werden die erwarteten Ergebnisse jedoch meist fest in den Testcode geschrieben und dienen dort als feste Prüfpunkte.
+Um die erwarteten Ergebnisse eines Testfalls zu prüfen können jedoch auch Testorakel benutzt werden. Unter einem Testorakel versteht man eine Quelle die Auskunft über einen zu erwartendes Ergebnis in einem Testfall gibt. Es gibt zahlreiche Ansätze diese Testorakel in unterschiedlichen Bereichen wie Spezifikation und GUI zu automatisieren. \cite{memon_automated_2000} \cite{richardson_specification-based_1992}
+\cite{shahamiri_comparative_2009} Solche automatisierten Testorakel können in automatisierten Testfällen dann zur Testauswertung dienen.
+
+
+\section{Möglichkeiten zur Testautomatisierung in Erstellung und Durchführung}
+\label{sec:möglichkeiten_zur_testautomatisierung_in_erstellung_und_durchführung}
+Der vorangegangene abschnitt sollte gezeigt haben, dass die Bereiche und die Möglichkeiten der Testautomatisierung breit gefächert sind. Dieser Abschnitt konzentriert sich auf die Bereiche der Testcodeerstellung und Testdurchführung und soll die gängigen Möglichkeiten die hier in der Automatisierung gegeben sind aufzeigen. Meszaros \cite{meszaros_agile_2003} stellt dazu eine 3 dreidimensionale Matrix auf.
+Die drei Dimensionen sind:
+
+\begin{itemize}
+	  \itemsep0pt
+      \item Die Granularität des zu testenden Systems. Meszaros orientiert sich dabei stark an den Testphasen des V-Modells und unterscheidet in Units (z.B. ein Modul, eine Klasse oder eine Methode), Komponenten und das gesamte System.
+      \item Testcodeerstellung. Meszaros nennt hier das manuelle erstellen von Testskripten und das halbautomatisierte erzeugen über \glqq recorde-and-playback\grqq\ Tools. 
+      \item Die Schnittstele zum System. Testfälle können sich direkt der API der Software bedienen oder über die grafische Benutzeroberfläche arbeiten.
+\end{itemize}
+
+Diese Matrix ergiebt 2x2x3 mögliche Kombinationen wie in Abbildung \ref{fig:3DimensionenDerTestauto} dargestellt.
+
+\begin{figure}[htb]
+  \centering  
+  \includegraphics[scale=0.5]{img/methodenTestauto.jpg}\\
+  \footnotesize\sffamily\textbf{Quelle:} vergl. \cite{meszaros_agile_2003}
+  \caption{Die 3 Dimensionen der Testautomatisierung}
+  \label{fig:3DimensionenDerTestauto}
+\end{figure}
+
+Dabei lassen sich vier Hauptbereiche identifizieren in denen jeweils ein unterschiedliches Vorgehen bei der Testautomatisierung benötigt wird. Die vier Bereiche bilden die Vorderseite des Würfels. Innerhalb der dritten Dimension, der Granulatitätsstufen, unterscheiden sich das Vorgehen bei der Testautomatisierung nur gering. Aus diesem Grund ist eine Unterteilung wie sie das V-Modell beim Testen trifft für eine Unterteilung innerhalb der Testautomatisierung alleine nicht sinnvoll. Die Methoden und Tools die in einzelnen Phasen des V-Modells verwendet werden könne durchaus identisch sein.
+
 
 
 \section{Selenium}
