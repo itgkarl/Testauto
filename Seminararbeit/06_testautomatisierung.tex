@@ -149,9 +149,9 @@ Die drei Dimensionen sind:
 
 \begin{itemize}
 	  \itemsep0pt
-      \item Die Granularität des zu testenden Systems. Meszaros orientiert sich dabei stark an den Testphasen des V-Modells und unterscheidet in Units (z.B. ein Modul, eine Klasse oder eine Methode), Komponenten und das gesamte System.
+      \item Die Granularität des zu testenden Systems. Meszaros orientiert sich dabei stark an den Testphasen des V-Modells und unterscheidet in Units (z.B. ein Modul, eine Klasse oder eine Methode), integrierte Komponenten und das gesamte System.
       \item Testcodeerstellung. Meszaros nennt hier das manuelle erstellen von Testskripten und das halbautomatisierte erzeugen über \glqq recorde-and-playback\grqq\ Tools. 
-      \item Die Schnittstele zum System. Testfälle können sich direkt der API der Software bedienen oder über die grafische Benutzeroberfläche arbeiten.
+      \item Die Schnittstele zum System. Testfälle können sich direkt der API der Software bedienen oder über die Benutzeroberfläche (UI) arbeiten.
 \end{itemize}
 
 Diese Matrix ergiebt 2x2x3 mögliche Kombinationen wie in Abbildung \ref{fig:3DimensionenDerTestauto} dargestellt.
@@ -164,25 +164,21 @@ Diese Matrix ergiebt 2x2x3 mögliche Kombinationen wie in Abbildung \ref{fig:3Di
   \label{fig:3DimensionenDerTestauto}
 \end{figure}
 
-Dabei lassen sich vier Hauptbereiche identifizieren in denen jeweils ein unterschiedliches Vorgehen bei der Testautomatisierung benötigt wird. Die vier Bereiche bilden die Vorderseite des Würfels. Innerhalb der dritten Dimension, der Granulatitätsstufen, unterscheiden sich das Vorgehen bei der Testautomatisierung nur gering. Aus diesem Grund ist eine Unterteilung wie sie das V-Modell beim Testen trifft für eine Unterteilung innerhalb der Testautomatisierung alleine nicht sinnvoll. Die Methoden und Tools die in einzelnen Phasen des V-Modells verwendet werden könne durchaus identisch sein.
+Dabei lassen sich vier Hauptbereiche identifizieren in denen jeweils ein unterschiedliches Vorgehen bei der Testautomatisierung benötigt wird. Diese vier Bereiche bilden die Vorderseite des Würfels. Innerhalb der dritten Dimension, der Granulatitätsstufen, unterscheiden sich das Vorgehen bei der Testautomatisierung nur gering. Aus diesem Grund ist eine Unterteilung wie sie das V-Modell beim Testen trifft für eine Unterteilung innerhalb der Testautomatisierung alleine nicht sinnvoll. Die Methoden und Tools die in einzelnen Test-Phasen des V-Modells verwendet werden könne durchaus identisch sein.
+
+\subsection{rechter oberer Quadrant - XUnit}
+Die Methoden der Testautomatisierung für den oberen rechten Quadranten bilden die modernen \glqq XUnit-Frameworks\grqq\ die nahezu in jede Programmiersprache existieren. Der Begriff XUnit-Framework ist dabei als reiner Name zu sehen und bedeutet nicht, dass sich diese Frameworks nur mit Testfällen der Granularitätsstufe \glqq Unit\grqq\ befassen. Mit dieser Art von Framework ist es möglich Tests auch allen Granularitätsebenen unzusetzen. Ein weit verbreitetes Beispiel für ein solches Framework wäre beispielsweise JUnit.
+
+\subsection{rechter unterer Quadrant - Geskriptete UI-Tests}
+Der rechter unterer Quadrant befasst sich mit Testfällen die von Hand geskriptet wurden und als Schnittstelle zum System die Benutzeroberfläche verwenden. In der Regel handelt es sich dabei um eine Erweiterung der modernen XUnit-Frameworks. Beispiele wären hierfür Selenium oder HttpUnit die zur Teststeuerung ein XUnit-Framework benutzen und dieses um Methoden erweitern mit deren Hilfe mit der Benutzeroberfläche des Systems kommuniziert werden kann. In den meisten Fällen handelt es sich dann um Testfällen aus dem Bereich der Granularitätsstufe \glqq System\grqq\. Es ist jedoch auch möglich auf diese Weise Testfälle für die anderen Granularitätsstufen zu entwickeln. Wird beispielsweise die Fachlogik aus dem System entfernt ist es möglich Testfälle nur für die Benutzeroberfläche als Komponente zu entwickeln.
+
+\subsection{linker unterer Quadrant - Robot User}
+Den linken unteren Quadrant fasst Meszaros unter dem Begriff \glqq Robot User\grqq\  \cite{meszaros_agile_2003} zusammen. Bei diesem Vorgehen interagiert ein Tester manuell mit dem Benutzerinterface des Systems. Alle Interaktionen werden dabei aufgezeichnet und gespeichert. Nachfolgend können die so aufgezeichneten Testfälle immer wieder abgespielt werden.
+Diesen Ansatz verfolgen die meisten kommerziellen Tools für Testautomatisierung und wird hauptsächlich für das testen auf der Granularitätsstufe \glqq System\grqq\ verwendet.
+Wie schon bei geskriptete UI-Tests können aber auch hier die anderen Granularitätsstufen abgedeckt werden wann gewisse Teile des Systems mit Hilfe von Mockups entfernt werde.
+Ein bekanntes Open Source-Tool welches unter anderem diesen Ansatz unterstützt wäre Selenium.
 
 
-
-\section{Selenium}
-\label{sec:selenium}
-
-B
-ASICS OF
-S
-ELENIUM AND
-J
-METER
-Selenium Remote Control (RC) is allows you to write
-automated web application UI tests in any programming
-language against any HTTP website using any mainstream
-JavaScript-enabled browser [7].
-The Selenium Server which launches and kills browsers,
-interprets and runs the Selenese commands passed from the
-test program, and acts as an HTTP proxy, intercepting and
-verifying HTTP messages passed between the browser and
-the AUT. (A Test automatisation Framework)
+\subsection{rechter oberer Quadrant - Internes R\&PB}
+Das Erstellen von Testfällen in diesem Bereich erfordert das Implementieren einer \glqq recorde-and-playback\grqq\ -API die Unterhalb der Ebene des Benutzerinterfaces arbeitet. Mit Hilfe dieser API können dann alle Aufrufe die den Zustand des Systems beeinflussen aufgezeichnet werden. Diese Aufzeichnungen können dann wieder als Eingabe für des erneute Abspielen des Workflows verwendet werden.
+\glqq Recorde-and-playback\grqq\ -Metoden im welche nicht das Benutzerinterface sondern die API als Schnittstelle zum System verwenden sind jedoch nicht der weit verbreitet.

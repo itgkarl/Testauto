@@ -1,0 +1,51 @@
+\chapter{Testautomatisierung mit Selenium}
+\label{sec:testautomatisierung_mit_selenium}
+Die Benutzeroberfläche ist als Schnittstelle für die Testautomatisierung weit verbreitet. Hierfür gibt es mehrere Gründe. Die Benutzeroberfläche ist sowohl für Tester als auch für den Entwickler leicht greifbar und sehr anschaulich. Testfälle die über die Benutzeroberfläche arbeiten kommen dem realen Verwendung der Anwendung sehr nahe und die Dokumentation ist auf dieser Ebene meist am vollständigsten. Wird die Benutzeroberfläche für die Automatisierung verwendet kommt das Vorgehen dem von klassischen Systemtests sehr nahe, da diese zumeist über die selber Schnittstelle durchgeführte werden. \cite[vgl. Seite 48]{seidl_basiswissen_2012} Das fördert vor allem die Akzeptanz des Testautomatisierungsprojektes auf der Fachseite da schnell sichtbare Erfolge erzielt werden können. 
+Ein weit verbreitetes Tool für die Automatisierung von Tests gegen die Benutzeroberfläche ist Selenium.
+
+\section{Selenium}
+\label{sec:selenium}
+Selenium ist eines der am weitesten verbreiteten Open-Source-Automatisierungswerkzeuge für Webapplikationen. Ordnet man das Tool gegen die in Kapitel \ref{sec:möglichkeiten_zur_testautomatisierung_in_erstellung_und_durchführung} beschirebene Unterteilung der Testautomatisierung ein, befinden sich Selenium in den unteren beiden Quadranten.
+Selenium ist also ein Tool das sowohl das manuelle Skripten von UI Tests wie auch das halbautomatische recorde-and-playback unterstützt. Selenium ist genaugenommen aber kein einzelnes Tool. Der Begriff steht eher für eine Reihe von Komponenten mit unterschiedlicher Funktionalität die der Testautomatisierung dienen. Dabei können folgende Teile unterschieden werden:
+
+\begin{itemize}
+	  \itemsep0pt
+      \item \textbf{Selenium IDE} (Integrated Development Environment), eine Firefox-Extension, welche eine recorde-and-playback Funktionalität beinhaltet. Mit der Selenium IDE ist es möglich Browserinteraktionen aufzuzeichen und die so erstellten Skripte zu editieren.
+      \item \textbf{Selenium Core} enthält die komplette Basisfunktionalität von Selenium, also das Testbefehl-API und den TestRunner. Mit Hilfe des Selenium Core können aufgenommene Skripte später wieder abgespielt werden.
+      \item \textbf{Selenium WebDriver} ermöglicht es, Selenium aus Skripten und Programmiersprachen zu verwenden. Der WebDriver bietet dazu eine API die es ermöglicht mit unterschiedlichen Browsern zu kommunizieren.
+      \item \textbf{Selenium Grid} für die Parallelisierung von Testdurchläufen.     
+\end{itemize}
+
+Was Selenium also bietet, ist eine Reihe von Komponenten die der Testautomatisierung in den Bereichen Testcodeerstellung \ref{subsec:testcodeerstellung} und Testdurchführung \ref{subsec:testdurchf\"uhrung} liegen
+
+\section{Testdesign mit Selenium}
+\label{sec:Testdesign}
+Selenium bietet kein Werkzeug das den Tester in der Designphase des Testprozesse unterstützt.
+Es ist mit Selenium also nicht möglich automatisiert Testfälle generieren zu lassen. Entscheidet man sich für Selenium als Testautomatisierungslösung werden die Testfälle in der Regel wie in Kapitel \ref{subsec:testanalyse_und_design} Testanalyse und Design beschrieben manuell erstellt. Selenium unterstützt zwar nicht den Desingprozess von Testfällen , versperrt jedoch auch nicht eine mögliche Automatisierung. Werden Testfälle, wie in Kapitel \ref{subsec:testanalyse_und_design} beschrieben, automatisch erstellt könne sie durchaus später mit Hilfe von Selenium automatisiert werden. Beispielsweise wäre ein Datengetriebener Automatisierungsansatz mit zuvor generierten Testeingaben durchaus denkbar. Das Zusammenspiel von beiden Phasen, also das automatische designen von Testfällen für die auch gleich automatisiert die Testskripte generiert werden, wie es beispielsweise modellbasierte Ansätze ermöglichen, ist jedoch ohne weiteres nicht möglich.
+
+\section{Testcodeerstellung mit Selenium}
+\label{sec:Testdesign}
+
+Im Bereich von GUI-Applikationen stellen Webanwendungen einen Spezialfall dar. Anders als in den meisten Denktopanwendungen ist die Kernfunktionalität der Anwendung Serverseitig realisiert. Als Kommunikationsschnittstelle zwischen Clients und Server dient HTML. Die eigentliche Benutzeroberfläche wird erst auf Clientseite durch den Browser aus dem gelieferten HTML-Dokument erzeugt. Das bietet für Testtools eine gute Basis, um auf die Elemente der Benutzeroberfläche zuzugreifen. \cite[vgl. Seite 59]{seidl_basiswissen_2012} UI-Testtools für Desktopanwendungen haben oft mit großen Herausforderungen zu kämpfen um die einzelenen Grafikelemente einer Anwendung zu identifizieren. Selenium kann hier einfach auf Browserfunktionalitäten bzw. auf die Struktur der HTML-Seite (Document Object Model), zurückgreifen. Über das Document Object Model können Tester die einzelnen Elemente einer Seite identifizieren und Interaktionen mit ihnen durchführen. Auf diese Weise kann der Workflow eines Testfalls in der Anwendung nachgebildet werden.
+
+Selenium bietet dafür zwei unterschiedliche Möglichkeiten. Der Testcode zum abbilden des Workflows kann halbautomatisiert über eine recorde-and-playback Funktionalität oder manuell erstellt werden.
+
+\subsection{recorde-and-playback}
+\label{sec:recorde_and_playback}
+(tschutschu.de/resources/SS2012 MyrzakmatovaDinaraStudienarbeit.pdf)
+-bescheibe rpb funktion --> Speichert in Selens  --> Möglichkeit zum Export als Unittest in verschiedenen Sprachen --> Probleme von RPB in beiden Bereichen
+
+\subsection{manuell}
+\label{sec:manuell}
+Manuell --> Aufwendiger --> Robustere Tests möglich --> Bsp Page-Object Pattern.
+
+\section{Testdurchführung mit Selenium}
+\label{sec:testdurchführung_mit_selenium}
+
+XUNIT frameworks bsp JUNIT TESTNG --> Vorteil : breite palette an Integrationsmöglichkeiten ser Testfälle in VOrhandene Funktionalitäten in den verbreiteten XUnit frameworks.
+
+\section{Testabdeckung mit Selenium}
+\label{sec:testdurchführung_mit_selenium}
+
+Nach abschluss der tests stellt sich heufig die Frage: Wie gut sind meine Tests? Habe ich genug tests oder benötige ich noch mehr? Um diese Fragen zu beantworten wird als Metrik häufig die Testabdeckung duch die vorhandenen Testfälle herangezogen. Unter Testabdeckung versteht man: ...
+In herkömmlichen Testfällen welche die API der Anwendung als Schnittstelle benuten (z.B Unittests) ist das recht einfach .. z.B. Unittests mit EclEmma ect.. Selenium verwendet GUI als Schinttstlle. Das ganze ist dann nicht mehr so einfach. Es muss darauf geachtet werden,m dass der durchlaufene Code in der Anwendung und nicht im Testprojekt gemessen wird. Meist arbeitet man gegen eine Fertig Kompilierte Anwendung. Das machd das genze Schwer. Es gibt allerdings Möglichkeiten. z.B. Rails... Java mit bytecodeinjection.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.27)  18 NOV 2014 18:24
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.27)  2 DEC 2014 17:21
 entering extended mode
 **00_Vorlage*Abschlussarbeit.tex
 
@@ -693,7 +693,17 @@ t\04_einleitung.aux)
 (F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbei
 t\05_grundlagen.aux)
 (F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbei
-t\06_testautomatisierung.aux))
+t\06_testautomatisierung.aux)
+(F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbei
+t\07_selenium.aux
+
+LaTeX Warning: Label `sec:Testdesign' multiply defined.
+
+
+LaTeX Warning: Label `sec:testdurchf\IeC {\"u}hrung_mit_selenium' multiply defi
+ned.
+
+))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
@@ -709,8 +719,7 @@ LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 68.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 *geometry* driver: auto-detecting
@@ -821,7 +830,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<img/logos.jpg, id=95, 1431.84938pt x 729.47531pt>
+<img/logos.jpg, id=139, 1431.84938pt x 729.47531pt>
 File: img/logos.jpg Graphic file (type jpg)
  <use img/logos.jpg>
 Package pdftex.def Info: img/logos.jpg used on input line 6.
@@ -856,12 +865,12 @@ t\03_zusammenfassung.tex) [2
 
 ]
 ("F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbe
-it\00_Vorlage Abschlussarbeit.toc")
+it\00_Vorlage Abschlussarbeit.toc" [3
+
+
+])
 \tf@toc=\write4
- [3
-
-
-]
+ [4]
 (F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbei
 t\04_einleitung.tex
 Kapitel 1.
@@ -904,7 +913,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--126
 
  []
 
-<img/vModell.jpg, id=183, 542.025pt x 288.3272pt>
+<img/vModell.jpg, id=242, 542.025pt x 288.3272pt>
 File: img/vModell.jpg Graphic file (type jpg)
  <use img/vModell.jpg>
 Package pdftex.def Info: img/vModell.jpg used on input line 129.
@@ -950,34 +959,48 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 58--76
  []
 
 [11] [12] [13] [14]
-<img/methodenTestauto.jpg, id=265, 463.9734pt x 357.4956pt>
+<img/methodenTestauto.jpg, id=325, 463.9734pt x 357.4956pt>
 File: img/methodenTestauto.jpg Graphic file (type jpg)
 
 <use img/methodenTestauto.jpg>
 Package pdftex.def Info: img/methodenTestauto.jpg used on input line 161.
 (pdftex.def)             Requested size: 231.98613pt x 178.74736pt.
-) [15] [16 <F:/Dropbox/Dropbox/Studium/11.Semester/Hauptseminar/Seminararbeit/S
-eminararbeit/img/methodenTestauto.jpg>]
+ [15] [16 <F:/Dropbox/Dropbox/Studium/11.Semester/Hauptseminar/Seminararbeit/Se
+minararbeit/img/methodenTestauto.jpg>]) [17]
+(F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbei
+t\07_selenium.tex
+Kapitel 4.
+[18
+
+
+
+] [19]
+Overfull \hbox (11.78528pt too wide) in paragraph at lines 35--37
+\T1/lmr/m/n/12 (tschutschu.de/resources/SS2012 My-rz-ak-ma-to-va-Di-nara-Stu-di
+-en-ar-beit.pdf) -bescheibe rpb funk-
+ []
+
+) [20]
 ("F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbe
 it\00_Vorlage Abschlussarbeit.lof")
 \tf@lof=\write5
- [17
+ [21
 
 
 ]
 ("F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbe
 it\00_Vorlage Abschlussarbeit.lot")
 \tf@lot=\write6
- [18
+ [22
 
 ]
 ("F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbe
-it\00_Vorlage Abschlussarbeit.bbl" [19
+it\00_Vorlage Abschlussarbeit.bbl" [23
 
-] [20])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
- [21]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
+] [24])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
+ [25]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
 
 ("F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbe
 it\00_Vorlage Abschlussarbeit.aux"
@@ -992,22 +1015,28 @@ t\04_einleitung.aux)
 (F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbei
 t\05_grundlagen.aux)
 (F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbei
-t\06_testautomatisierung.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
+t\06_testautomatisierung.aux)
+(F:\Dropbox\Dropbox\Studium\11.Semester\Hauptseminar\Seminararbeit\Seminararbei
+t\07_selenium.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 Package rerunfilecheck Info: File `00_Vorlage*Abschlussarbeit.out' has not chan
 ged.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  ) 
 Here is how much of TeX's memory you used:
- 9760 strings out of 493921
- 153466 string characters out of 3144866
- 268588 words of memory out of 3000000
- 12769 multiletter control sequences out of 15000+200000
+ 9804 strings out of 493921
+ 154618 string characters out of 3144866
+ 269272 words of memory out of 3000000
+ 12790 multiletter control sequences out of 15000+200000
  73030 words of font info for 51 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
- 40i,14n,47p,807b,448s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,14n,47p,1128b,475s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
@@ -1017,9 +1046,9 @@ lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on "00_Vorlage Abschlussarbeit.pdf" (25 pages, 495060 bytes).
+Output written on "00_Vorlage Abschlussarbeit.pdf" (30 pages, 517932 bytes).
 PDF statistics:
- 359 PDF objects out of 1000 (max. 8388607)
- 74 named destinations out of 1000 (max. 500000)
- 200 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 444 PDF objects out of 1000 (max. 8388607)
+ 90 named destinations out of 1000 (max. 500000)
+ 288 words of extra memory for PDF output out of 10000 (max. 10000000)
 
