@@ -29,7 +29,8 @@
 \contentsline {section}{\numberline {4.1}Selenium}{18}{section.4.1}
 \contentsline {section}{\numberline {4.2}Testdesign mit Selenium}{19}{section.4.2}
 \contentsline {section}{\numberline {4.3}Testcodeerstellung mit Selenium}{19}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}recorde-and-playback}{20}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}manuell}{20}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Testdurchf\IeC {\"u}hrung mit Selenium}{20}{section.4.4}
-\contentsline {section}{\numberline {4.5}Testabdeckung mit Selenium}{20}{section.4.5}
+\contentsline {subsection}{\numberline {4.3.1}Recorde-and-playback}{20}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Manuell}{21}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Testdurchf\IeC {\"u}hrung mit Selenium}{21}{section.4.4}
+\contentsline {section}{\numberline {4.5}Testabdeckung mit Selenium}{22}{section.4.5}
+\contentsline {chapter}{\numberline {5}Ausblick}{23}{chapter.5}

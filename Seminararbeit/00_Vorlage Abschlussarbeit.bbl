@@ -38,6 +38,12 @@
 \newblock Addison-Wesley, 1999. --
 \newblock ISBN 0201331403
 
+\bibitem[{Goo}14]{google_google_2014}
+\textsc{{Google}}:
+\newblock \emph{Google Trends - Websuche-Interesse - Weltweit, 2004 - heute}.
+\newblock \url{http://www.google.de/trends/explore}.
+\newblock \,Version:\,2014
+
 \bibitem[Har00]{harrold_testing:_2000}
 \textsc{Harrold}, Mary~J.:
 \newblock Testing: A Roadmap.
