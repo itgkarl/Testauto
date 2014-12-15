@@ -5,7 +5,7 @@ Ein weit verbreitetes Tool für die Automatisierung von Tests gegen die Benutzer
 
 \section{Selenium}
 \label{sec:selenium}
-Selenium ist eines der am weitesten verbreiteten Open-Source-Automatisierungswerkzeuge für Webapplikationen. Ordnet man das Tool gegen die in Kapitel \ref{sec:möglichkeiten_zur_testautomatisierung_in_erstellung_und_durchführung} beschirebene Unterteilung der Testautomatisierung ein, befinden sich Selenium in den unteren beiden Quadranten.
+Selenium \cite{selenium_selenium_????} ist eines der am weitesten verbreiteten Open-Source-Automatisierungswerkzeuge für Webapplikationen. Ordnet man das Tool gegen die in Kapitel \ref{sec:möglichkeiten_zur_testautomatisierung_in_erstellung_und_durchführung} beschirebene Unterteilung der Testautomatisierung ein, befinden sich Selenium in den unteren beiden Quadranten.
 Selenium ist also ein Tool das sowohl das manuelle Skripten von UI Tests wie auch das halbautomatische recorde-and-playback unterstützt. Selenium ist genaugenommen aber kein einzelnes Tool. Der Begriff steht eher für eine Reihe von Komponenten mit unterschiedlicher Funktionalität die der Testautomatisierung dienen. Dabei können folgende Teile unterschieden werden:
 
 \begin{itemize}
@@ -44,7 +44,7 @@ Diese Funktionalität sollte daher eher als Prototyping von Skripten verstanden 
 
 \subsection{Manuell}
 \label{sec:manuell}
-Eine andere Möglichkeit ist das manuelle programmieren der Testskripte. Der manuell erstellte Testcode bedient sich den selben Tools die auch die Generierten und Exportierten Testfälle aus der recorde-and-playback Variante verwenden. Das macht die Testfallerstellung zu beginn im Vergleich zur halbautomatischen Variante aufwendig. Dieser Mehraufwand kann allerdings durch deutlich bessere Wartbarkeit und Wiederverwendbarkeit schnell wieder eingespart werden. Im Gegensatz du den generierten Testfällen kann bei einem manuellen Ansatz von Anfang an auf eine wartbare und wiederverwendbare Struktur in den Testfällen geachtet werden. Als best practice hat sich hierfür das Page Object Design Pattern durchgesetzt. (http://docs.seleniumhq.org/docs/06testdesignconsiderations.jsp)Jede Maske der Anwendung wird als eigene Klasse umgesetzt. Diese Klassen beinhalten als einziger Ort in den Testskripten die Informationen über Funktionalität und Aufbau der Maske. So können redundanter code und redundante Informationshaltung vermieden werden. Die Wartbarkeit und Robustheit der Testskripte steigt.
+Eine andere Möglichkeit ist das manuelle programmieren der Testskripte. Der manuell erstellte Testcode bedient sich den selben Tools die auch die Generierten und Exportierten Testfälle aus der recorde-and-playback Variante verwenden. Das macht die Testfallerstellung zu beginn im Vergleich zur halbautomatischen Variante aufwendig. Dieser Mehraufwand kann allerdings durch deutlich bessere Wartbarkeit und Wiederverwendbarkeit schnell wieder eingespart werden. Im Gegensatz du den generierten Testfällen kann bei einem manuellen Ansatz von Anfang an auf eine wartbare und wiederverwendbare Struktur in den Testfällen geachtet werden. Als best practice hat sich hierfür das Page Object Design Pattern \cite{selenium_test_????} durchgesetzt. Jede Maske der Anwendung wird als eigene Klasse umgesetzt. Diese Klassen beinhalten als einziger Ort in den Testskripten die Informationen über Funktionalität und Aufbau der Maske. So können redundanter code und redundante Informationshaltung vermieden werden. Die Wartbarkeit und Robustheit der Testskripte steigt.
 
 
 \section{Testdurchführung mit Selenium}
@@ -66,7 +66,7 @@ Das erweist sich meist als deutlich schwierigere Aufgabe also das Messen beim ve
 \chapter{Ausblick}
 \label{sec:ausblick}
 
-Das Thema Testautomatisierung wird auch in den kommenden Jahren ein wichtiges Thema im Bereich der Softwareentwicklung bleiben. Vor allem die Themen Continous Integration und Continous Delivery werden hier weiter eine Treibende Kraft sein. Die Testautomatisierung ist ein integraler Bestandteil dieser Entwicklungskonzepte. Der Verlauf der Suchanfragen in den Letzten Jahren zeigt einen klaren aufsteigenden Trend für Continous Integration und Continous Delivery.
+Das Thema Testautomatisierung wird auch in den kommenden Jahren ein wichtiges Thema im Bereich der Softwareentwicklung bleiben. Vor allem Continous Integration und Continous Delivery werden hier weiter eine Treibende Kraft sein. Diese zwei Bereiche sind als Entwicklungskonzepte derzeit sehr stark im Trend, was auch der Verlauf der Suchanfragen in den letzten Jahren zeigt.
 \begin{figure}[htb]
   \centering  
   \includegraphics[scale=0.75]{img/cdTrend.JPG}\\
@@ -74,6 +74,8 @@ Das Thema Testautomatisierung wird auch in den kommenden Jahren ein wichtiges Th
   \caption{Trend der Suchanfragen nach dem Begriffen ‘continous integration‘ und ‘continous delivery‘ seit 2006}
   \label{fig:cdTrend}
 \end{figure}
+Die Testautomatisierung ist ein integraler Bestandteil dieser Entwicklungskonzepte und wird daher von diesem Trend mitgetragen werden. Unittests bzw. Integrationstests mit den gängigen XUnit-Frameworks haben sich bereits in vielen Projekten durchgesetzt. Für eine sinvolle Continous Integration bzw. Continous Delivery müssen jedoch alle Bereiche, von Unit- bis Systemtest durch eine Automatisierung abgedeckt werden. Es ist daher zu erwarten, dass auch die Automatisierung in diesen Bereichen für viele Projekte an Interesse gewinnen wird.
+
 
 Im Bereich der Automatisierungstools wird Selenium auch in der nächsten Zeit eine weit verbreitete Lösung darstellen. Der Verlauf der Suchanfragen in den Letzten Jahren zeigt, dass Selenium im Vergleich zu anderen gängigen Lösungen immer noch sehr beliebt ist.
 

@@ -20,10 +20,10 @@
 \BOOKMARK [2][-]{subsection.3.2.3}{Testdurchf\374hrung}{section.3.2}% 20
 \BOOKMARK [2][-]{subsection.3.2.4}{Testauswertung}{section.3.2}% 21
 \BOOKMARK [1][-]{section.3.3}{M\366glichkeiten zur Testautomatisierung in Erstellung und Durchf\374hrung}{chapter.3}% 22
-\BOOKMARK [2][-]{subsection.3.3.1}{rechter oberer Quadrant - XUnit}{section.3.3}% 23
-\BOOKMARK [2][-]{subsection.3.3.2}{rechter unterer Quadrant - Geskriptete UI-Tests}{section.3.3}% 24
-\BOOKMARK [2][-]{subsection.3.3.3}{linker unterer Quadrant - Robot User}{section.3.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.4}{rechter oberer Quadrant - Internes R\046PB}{section.3.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.1}{rechte obere Quadranten - XUnit}{section.3.3}% 23
+\BOOKMARK [2][-]{subsection.3.3.2}{rechte untere Quadranten - Geskriptete UI-Tests}{section.3.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.3}{linke untere Quadranten - Robot User}{section.3.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.4}{rechte obere Quadranten - Internes R\046PB}{section.3.3}% 26
 \BOOKMARK [0][-]{chapter.4}{Testautomatisierung mit Selenium}{}% 27
 \BOOKMARK [1][-]{section.4.1}{Selenium}{chapter.4}% 28
 \BOOKMARK [1][-]{section.4.2}{Testdesign mit Selenium}{chapter.4}% 29

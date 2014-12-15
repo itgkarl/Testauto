@@ -21,10 +21,10 @@
 \contentsline {subsection}{\numberline {3.2.3}Testdurchf\IeC {\"u}hrung}{14}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Testauswertung}{14}{subsection.3.2.4}
 \contentsline {section}{\numberline {3.3}M\IeC {\"o}glichkeiten zur Testautomatisierung in Erstellung und Durchf\IeC {\"u}hrung}{15}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}rechter oberer Quadrant - XUnit}{15}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}rechter unterer Quadrant - Geskriptete UI-Tests}{16}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}linker unterer Quadrant - Robot User}{16}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}rechter oberer Quadrant - Internes R\&PB}{17}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.1}rechte obere Quadranten - XUnit}{15}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}rechte untere Quadranten - Geskriptete UI-Tests}{16}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}linke untere Quadranten - Robot User}{17}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}rechte obere Quadranten - Internes R\&PB}{17}{subsection.3.3.4}
 \contentsline {chapter}{\numberline {4}Testautomatisierung mit Selenium}{18}{chapter.4}
 \contentsline {section}{\numberline {4.1}Selenium}{18}{section.4.1}
 \contentsline {section}{\numberline {4.2}Testdesign mit Selenium}{19}{section.4.2}
