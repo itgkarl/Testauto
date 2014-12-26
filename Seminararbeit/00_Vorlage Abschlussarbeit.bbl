@@ -38,6 +38,12 @@
 \newblock Addison-Wesley, 1999. --
 \newblock ISBN 0201331403
 
+\bibitem[{Goo}14]{google_google_2014}
+\textsc{{Google}}:
+\newblock \emph{Google Trends - Websuche-Interesse - Weltweit, 2004 - heute}.
+\newblock \url{http://www.google.de/trends/explore}.
+\newblock \,Version:\,2014
+
 \bibitem[Har00]{harrold_testing:_2000}
 \textsc{Harrold}, Mary~J.:
 \newblock Testing: A Roadmap.
@@ -45,6 +51,11 @@
   Engineering}.
 \newblock New York, {NY}, {USA} : {ACM}, 2000 ({ICSE} '00). --
 \newblock ISBN 1--58113--253--0, 61--72
+
+\bibitem[{Htt}]{httpunit_httpunit_????}
+\textsc{{HttpUnit}}:
+\newblock \emph{{HttpUnit} Home}.
+\newblock \url{http://httpunit.sourceforge.net/}, Abruf: 2014-12-15
 
 \bibitem[{IEE}08]{ieee_ieee_2008}
 \textsc{{IEEE}}:
@@ -58,6 +69,19 @@
   Systems and software Quality Requirements and Evaluation ({SQuaRE}) — Guide
   to {SQuaRE}}.
 \newblock M{\^^b a}rz 2014
+
+\bibitem[ISO01]{iso/iec_iso/iec_2001}
+\textsc{ISO/IEC}:
+\newblock \emph{{ISO}/{IEC} 9126. Software engineering -- Product quality}.
+\newblock {ISO}/{IEC}, 2001
+
+\bibitem[{ISO}10]{iso/iec/ieee_systems_2010}
+\textsc{{ISO/IEC/IEEE}}:
+\newblock Systems and software engineering – Vocabulary.
+\newblock {In: }\emph{{ISO}/{IEC}/{IEEE} 24765:2010(E)}  (2010), Dezember, S.
+  1--418.
+\newblock \url{http://dx.doi.org/10.1109/IEEESTD.2010.5733835}. --
+\newblock DOI 10.1109/IEEESTD.2010.5733835
 
 \bibitem[LFK03]{last_data_2003}
 \textsc{Last}, Mark ; \textsc{Friedman}, Menahem  ; \textsc{Kandel}, Abraham:
@@ -113,6 +137,18 @@
 \newblock 1. Aufl.
 \newblock Heidelberg : dpunkt-Verl., 2012. --
 \newblock ISBN 978--3--89864--724--3
+
+\bibitem[{Sel}a]{selenium_selenium_????}
+\textsc{{Selenium}}:
+\newblock \emph{Selenium - Web Browser Automation}.
+\newblock \url{http://www.seleniumhq.org/}, Abruf: 2014-12-15
+
+\bibitem[{Sel}b]{selenium_test_????}
+\textsc{{Selenium}}:
+\newblock \emph{Test Design Considerations — Selenium Documentation}.
+\newblock
+  \url{http://docs.seleniumhq.org/docs/06_test_design_considerations.jsp#page-object-design-pattern},
+  Abruf: 2014-12-15
 
 \bibitem[SKMH09]{shahamiri_comparative_2009}
 \textsc{Shahamiri}, S.R. ; \textsc{Kadir}, W.M.N.W.  ; \textsc{Mohd-Hashim},
