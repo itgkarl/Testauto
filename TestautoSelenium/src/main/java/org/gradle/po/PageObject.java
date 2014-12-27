@@ -30,15 +30,8 @@ public class PageObject {
 
 	protected ByFactory by = new ByFactory();
 
-	Control aToDoApp = control(by.link("ToDo-App"));
-
 	public WebDriver getDriver() {
 		return driver;
-	}
-
-	public WelcomePage clickAToDoApp() {
-		aToDoApp.click();
-		return new WelcomePage();
 	}
 
 	protected List<WebElement> findElements(By by) {
@@ -120,9 +113,9 @@ public class PageObject {
 	 * @see #getElement(By) if you don't want to see an exception
 	 */
 	protected WebElement find(By selector) {
-		try {
-			long endTime = System.currentTimeMillis() + 1000;
-			while (System.currentTimeMillis() <= endTime) {
+		long endTime = System.currentTimeMillis() + 1000;
+		while (System.currentTimeMillis() <= endTime) {
+			try {
 				WebElement e = driver.findElement(selector);
 				if (isDisplayed(e))
 					return e;
@@ -132,18 +125,15 @@ public class PageObject {
 						return f;
 				}
 
-				// give a bit more chance for the element to become visible
-				sleep(100);
+			} catch (NoSuchElementException x) {
+				// stay in the loop
 			}
-
-			throw new NoSuchElementException("Unable to locate visible "
-					+ selector + " in " + driver.getCurrentUrl());
-		} catch (NoSuchElementException x) {
-			// this is often the best place to set a breakpoint
-			String msg = String.format("Unable to locate %s in %s\n\n%s",
-					selector, driver.getCurrentUrl(), driver.getPageSource());
-			throw new NoSuchElementException(msg, x);
+			// give a bit more chance for the element to become visible
+			sleep(100);
 		}
+
+		throw new NoSuchElementException("Unable to locate visible " + selector
+				+ " in " + driver.getCurrentUrl());
 	}
 
 	/**
