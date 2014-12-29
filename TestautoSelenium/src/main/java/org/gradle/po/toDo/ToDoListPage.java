@@ -38,5 +38,16 @@ public class ToDoListPage extends ToDoPageObject {
 		WebElement title = super.driver.findElement(by.xpath("//table/tbody/tr[last()]/td[3]"));
 		return title.getText();
 	}
+	
+	public ToDoEditPage clickEditLastEntry(){
+		try {
+			Thread.sleep(300);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		WebElement edit = super.driver.findElement(by.xpath("//table/tbody/tr[last()]/td[4]/a[1]"));
+		edit.click();
+		return new ToDoEditPage(driver);
+	}
 
 }
