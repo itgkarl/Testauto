@@ -55,7 +55,7 @@
 \bibitem[{Htt}]{httpunit_httpunit_????}
 \textsc{{HttpUnit}}:
 \newblock \emph{{HttpUnit} Home}.
-\newblock \url{http://httpunit.sourceforge.net/}, Abruf: 2014-12-15
+\newblock \url{http://httpunit.sourceforge.net/}
 
 \bibitem[{IEE}08]{ieee_ieee_2008}
 \textsc{{IEEE}}:
@@ -115,6 +115,12 @@
 \newblock New York, {NY}, {USA} : {ACM}, 2000 ({SIGSOFT} '00/{FSE}-8). --
 \newblock ISBN 1--58113--205--0, 30--39
 
+\bibitem[{Pro}06]{prof._dr._r._lindermeier_projekt-_2006}
+\textsc{{Prof. Dr. R. Lindermeier}}:
+\newblock \emph{Projekt- und Qualitätsmanagement Softwarequalität und
+  Softwareprüfung}.
+\newblock 2006
+
 \bibitem[RAO92]{richardson_specification-based_1992}
 \textsc{Richardson}, D.J. ; \textsc{Aha}, S.L.  ; \textsc{O'Malley}, T.O.:
 \newblock Specification-based test oracles for reactive systems.
@@ -141,14 +147,13 @@
 \bibitem[{Sel}a]{selenium_selenium_????}
 \textsc{{Selenium}}:
 \newblock \emph{Selenium - Web Browser Automation}.
-\newblock \url{http://www.seleniumhq.org/}, Abruf: 2014-12-15
+\newblock \url{http://www.seleniumhq.org/}
 
 \bibitem[{Sel}b]{selenium_test_????}
 \textsc{{Selenium}}:
 \newblock \emph{Test Design Considerations — Selenium Documentation}.
 \newblock
-  \url{http://docs.seleniumhq.org/docs/06_test_design_considerations.jsp#page-object-design-pattern},
-  Abruf: 2014-12-15
+  \url{http://docs.seleniumhq.org/docs/06_test_design_considerations.jsp#page-object-design-pattern}
 
 \bibitem[SKMH09]{shahamiri_comparative_2009}
 \textsc{Shahamiri}, S.R. ; \textsc{Kadir}, W.M.N.W.  ; \textsc{Mohd-Hashim},
